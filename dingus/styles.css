@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar-links {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.navbar-link {
+    padding: 0 16px;
+}
+
+.navigation {
+    background-color: #7f7d9c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-image {
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
